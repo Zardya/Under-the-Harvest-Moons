@@ -1,0 +1,96 @@
+{
+  "title": "Under the Harvest Moons",
+  "description": "In the following pages, you’ll be presented with options to add a dose of delightful dread to your 5th edition games. From the gothic to the gruesome, from folk horror to body horror, there is something contained within for all manner of spine-chilling campaigns and encounters.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Underground Oracle Publishing",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  },
+  "packs": [
+    {
+      "name": "uthm-adventures",
+      "label": "UtHM Adventures",
+      "path": "packs/adventures.db",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "uthm-creatures",
+      "label": "UtHM Creatures",
+      "path": "packs/creatures.db",
+      "type": "Actor",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "uthm-items",
+      "label": "UtHM Items",
+      "path": "packs/items.db",
+      "type": "Item",
+      "system": "dnd5e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "uthm-scenes",
+      "label": "UtHM Scenes",
+      "path": "packs/scenes.db",
+      "type": "Scene",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "uthm-journal-entries",
+      "label": "UtHM Journal Entries",
+      "path": "packs/journal-entries.db",
+      "type": "JournalEntry",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "uthm-macros",
+      "label": "UtHM Macros",
+      "path": "packs/macros.db",
+      "type": "Macro",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "uthm-roll-tables",
+      "label": "UtHM Roll Tables",
+      "path": "packs/roll-tables.db",
+      "type": "RollTable",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "uthm-playlists",
+      "label": "UtHM Playlists",
+      "path": "packs/playlists.db",
+      "type": "Playlist",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "manifest": "https://github.com/Zardya/Under-the-Harvest-Moons/releases/download/1.0.0/module.json",
+  "download": "https://github.com/Zardya/Under-the-Harvest-Moons/releases/download/1.0.0/Under-the-Harvest-Moons.zip",
+  "id": "under-the-harvest-moons",
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
+}
